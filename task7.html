@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campus Quest - Mission Tracker</title>
+  <link rel="stylesheet" href="task7.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Campus Quest: Mission Tracker</h1>
+
+    <div class="count">
+      <p>Total: <span id="total">0</span></p>
+    </div>
+
+    <div class="input-area">
+      <input type="text" id="mission" placeholder="Enter a new mission...">
+      <button onclick="addMission()">Add Mission</button>
+    </div>
+    <p id="error" class="error"></p>
+
+    <ul id="missionlist"></ul>
+
+    <button class="colour-btn" onclick="changeColour()">Change Colour</button>
+  </div>
+
+  <script src="task7.js"></script>
+</body>
+</html>
