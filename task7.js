@@ -18,8 +18,7 @@ function addMission() {
   deleteBtn.className = "delete-btn";
 
  
-  deleteBtn.onclick = function (event) {
-    event.stopPropagation();
+  deleteBtn.onclick = function () {
     item.remove();
     updateTotal();
   };
